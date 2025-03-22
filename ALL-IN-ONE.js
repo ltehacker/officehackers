@@ -316,7 +316,7 @@ return column - 1; // Convert to 0-based index
 
 function onOpen() {
   var ui = SpreadsheetApp.getUi();
-  ui.createMenu('Milage Project Tools')
+  ui.createMenu('Mileage Project Tools')
     .addItem('#1 Copy Visible Rows', 'copyVisibleRows')
     .addItem('#2 Reformat Multi-Line Rows', 'reformatMultiLineRowsToNewSheet')
     .addItem('#3 Highlight Matching Rows', 'highlightMatchingRows')
